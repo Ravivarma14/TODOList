@@ -15,13 +15,13 @@
         android:padding="8dp">
 
         <CheckBox
+            android:id="@+id/checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/checkbox"
-            tool:text="this is an sample task"
-            tool:textSize="20dp"
+            android:buttonTint="@color/purple_200"
             android:paddingStart="8dp"
-            android:backgroundTint="@color/purple_200"/>
+            tool:text="this is an sample task"
+            tool:textSize="20dp" />
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
